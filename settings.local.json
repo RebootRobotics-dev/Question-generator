@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(npm *)",
+      "PowerShell($l = Get-Content index.html; \"lines: $\\($l.Count\\)\"; for\\($i=0;$i -lt $l.Count;$i++\\){ if\\($l[$i].Length -gt 400\\){ \"$\\($i+1\\): len $\\($l[$i].Length\\) :: $\\($l[$i].Substring\\(0,120\\)\\)\" } })",
+      "PowerShell(Copy-Item *)",
+      "PowerShell(New-Item *)"
+    ]
+  }
+}
